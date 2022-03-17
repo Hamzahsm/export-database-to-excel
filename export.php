@@ -4,8 +4,8 @@
 header("Content-type: application/vnd-ms-excel");
  
 // Mendefinisikan nama file ekspor "hasil-export.xls"
-header("Content-Disposition: attachment; filename=Database-Register-Klien-Oesman.xls");
+header("Content-Disposition: attachment; filename=student-databases.xls");
  
 // Tambahkan table
-include 'databases-sales.php'; //database yang ingin di pindah ke excel
+include 'database.php'; //database yang ingin di pindah ke excel
 ?>
